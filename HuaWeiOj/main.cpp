@@ -1,13 +1,14 @@
-#ifndef PRE_INCLUDE_H
-#define PRE_INCLUDE_H
-
-#include <stack>
 #include <iostream>
 #include <string>
 #include <iomanip>
 #include <list>
-
+#include <stack>
 using namespace std;
 
 
-#endif // PRE_INCLUDE_H
+
+int main()
+{
+
+    return 0;
+}
