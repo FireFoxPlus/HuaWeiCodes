@@ -8,6 +8,8 @@ bool matchBrackets(string str)
             brackets.push('(');
         else if(str[i] == '[')
             brackets.push('[');
+        else if((str[i] == ')' || str[i] == ']') && brackets.empty())
+            return false;
         else if(str[i] == ')' && brackets.top() == '(')
             brackets.pop();
         else if(str[i] == ']' && brackets.top() == '[')
