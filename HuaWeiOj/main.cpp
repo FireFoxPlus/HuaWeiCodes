@@ -9,12 +9,18 @@
 
 using namespace std;
 
+int cutLine(vector<int> scores)
+{
+
+
+
+
+
+}
 
 
 int main()
 {
-
-
 
     return 0;
 }
