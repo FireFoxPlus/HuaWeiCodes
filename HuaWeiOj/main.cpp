@@ -1,23 +1,16 @@
 #include <iostream>
 #include <string>
 #include <iomanip>
-#include <list>
-#include <stack>
+#include <vector>
 #include <algorithm>
-#include <set>
+#include <string.h>
+#include <limits.h>
 #include <map>
-
 using namespace std;
-
-
-
 
 int main()
 {
-    string str;
-    getline(cin , str);
 
 
-
-    return 0;
 }
+
